@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Designer</title>
+
+    <link rel="stylesheet" href="../assets/styles/index.css"> <!-- Import CSS -->    
+</head>
+<body data-theme="dark">
+    <div class="auth">
+        <div class="top-container">
+            <h3 class="title">Logar</h3>
+            <span class="description">Bem-vindo de volta! Preencha as informações abaixo para continuar:</span>
+        </div>
+
+        <div class="form">
+            <div class="input-box">
+                <label for="email" class="required">E-mail:</label>
+                <input type="email" id="email" placeholder="Ex.: example@mail.com">
+            </div>
+
+            <div class="input-box">
+                <label for="email" class="required">Senha:</label>
+                <input type="password" id="password" placeholder="Insira sua senha">
+            </div>
+
+            <a class="forgot-password" href="/forgot-password">Esqueci minha senha</a>
+            
+            <button type="submit">Entrar na conta</button>
+            
+            <span class="auth-mode">
+                Não tem uma conta?
+                <a href="./register.html">Crie uma conta</a>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
